@@ -16,7 +16,6 @@ namespace ConsoleApp1
             int B = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Выберете пункт меню:");
             Console.WriteLine("1 - умножение");
-            //Console.WriteLine("1 - умножение");
             //Console.WriteLine("2 - сложение");
             //Console.WriteLine("3 - деление");
             //Console.WriteLine("4 - вычитаение");
