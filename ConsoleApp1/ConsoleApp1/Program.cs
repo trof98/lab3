@@ -16,8 +16,8 @@ namespace ConsoleApp1
             int B = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Выберете пункт меню:");
             Console.WriteLine("1 - умножение");
-            //Console.WriteLine("2 - сложение");
-            //Console.WriteLine("3 - деление");
+            Console.WriteLine("2 - сложение");
+            Console.WriteLine("3 - деление");
             Console.WriteLine("4 - вычитаение");
 
             int num = Convert.ToInt32(Console.ReadLine());
@@ -31,21 +31,21 @@ namespace ConsoleApp1
                         break;
                     }
 
-                //case 2:
-                //    {
-                //        int C = A + B;
-                //        Console.WriteLine("Ответ: {0}", C);
+                case 2:
+                    {
+                        int C = A + B;
+                        Console.WriteLine("Ответ: {0}", C);
 
-                //        break;
-                //    }
+                        break;
+                    }
 
-                //case 3:
-                //    {
-                //        int C = A / B;
-                //        Console.WriteLine("Ответ: {0}", C);
+                case 3:
+                    {
+                        int C = A / B;
+                        Console.WriteLine("Ответ: {0}", C);
 
-                //        break;
-                //    }
+                        break;
+                    }
 
                 case 4:
                     {
